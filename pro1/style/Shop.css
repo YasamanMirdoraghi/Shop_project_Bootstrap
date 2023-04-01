@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+._row1 {
+  background-color: #464444 !important;
+  height: 50px;
+}
+
+._row1 h4 {
+  font-size: 19px;
+  font-family: 'Tilt Prism', cursive;
+}
+
+._row2 {
+  background-color: #000;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+._row2 .pe-5 {
+  padding-right: 120px !important;
+}
+
+._A {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+._A:hover {
+  color: #be1d53 !important;
+}
+
+.main-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  width: 180px;
+  height: 60px;
+  margin-left: 470px;
+  cursor: pointer;
+  color: #fff !important;
+  font-size: 26px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+  margin-top: 30px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.603);
+  border-top: 2px solid rgba(255, 255, 255, 0.644);
+}
+
+.main-btn:hover {
+  color: #be1d53 !important;
+  font-size: 32px;
+  border: 2px solid #be1d53;
+  border-radius: 16px;
+}
+
+.main-btn1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  width: 100px;
+  height: 40px;
+  margin-left: 180px;
+  cursor: pointer;
+  color: #fff !important;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+  margin-top: 30px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.603);
+  border-top: 2px solid rgba(255, 255, 255, 0.644);
+}
+
+.main-btn1:hover {
+  color: #be1d53 !important;
+  font-size: 20px;
+  border: 2px solid #be1d53;
+  border-radius: 16px;
+}
+
+.carousel-caption a {
+  font-family: 'Mynerve', cursive;
+}
+
+.carousel-caption h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+.carousel-caption p {
+  font-family: 'Secular One', sans-serif;
+}
+
+p {
+  font-family: 'Secular One', sans-serif;
+}
+
+._H2 {
+  font-family: 'Secular One', sans-serif;
+}
+
+._H21 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+._FONT {
+  font-family: 'Delicious Handrawn', cursive;
+}
+
+._slid {
+  width: 1600px;
+  height: 620px !important;
+}
+
+._img {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  -webkit-transition: .8s linear;
+  transition: .8s linear;
+}
+
+._img:hover {
+  opacity: .5;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+._card {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  z-index: 99;
+  margin: auto;
+  padding: 0 15px;
+}
+
+._card > h2 {
+  font-size: 44px;
+}
+
+._card ._C1 h2 {
+  color: #0000 !important;
+}
+
+._shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  height: 50px;
+  margin-left: 140px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  background-color: transparent !important;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Mynerve', cursive;
+}
+
+._shop:hover {
+  background-color: rgba(255, 255, 255, 0.781) !important;
+  color: #000 !important;
+}
+
+._shop1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  height: 50px;
+  margin-left: 140px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Mynerve', cursive;
+}
+
+._shop1:hover {
+  background-color: rgba(5, 5, 5, 0.781) !important;
+  color: #fff !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+._MOO {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+  border-radius: 50px;
+  height: 50px;
+  color: #ffff;
+  cursor: pointer;
+}
+
+._ps {
+  padding-left: 163px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+._Ms {
+  margin-left: 49px;
+  font-size: 24px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+._www li {
+  list-style-type: none;
+}
+
+.bas {
+  color: gold;
+  cursor: pointer;
+}
+
+.bas1 {
+  color: #fff;
+}
+
+.tor {
+  margin-top: 50px;
+}
+
+._PI {
+  margin-bottom: 100px !important;
+}
+
+._color {
+  -webkit-transition: .5s;
+  transition: .5s;
+  cursor: pointer;
+}
+
+._color:hover {
+  color: #be1d53 !important;
+}
+
+._sss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  height: 50px;
+  margin-left: 140px;
+  -webkit-box-shadow: -2px 1px 3px ghostwhite;
+          box-shadow: -2px 1px 3px ghostwhite;
+  background-color: transparent !important;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Libre Baskerville', serif;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+._sss:hover {
+  border: 2px solid black;
+  -webkit-box-shadow: -20px 15px 5px white;
+          box-shadow: -20px 15px 5px white;
+}
+
+._f {
+  font-family: 'Mynerve', cursive;
+}
+
+._IMG {
+  overflow: hidden;
+}
+
+._IMG img {
+  width: 100%;
+  height: 100%;
+}
+
+._IMG img:hover {
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=Shop.css.map */
